@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Sarah_Brennan_2962279_Ass1</string>
+    <string name="title_activity_loans">LoansActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_return">ReturnActivity</string>
+
+    <!--button string-->
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+
+    <!--Array used for Genres-->
+    <string-array name="genre_array">
+        <item>Genre</item>
+        <item>Action</item>
+        <item>Classic</item>
+        <item>Fantasy</item>
+        <item>Horror</item>
+        <item>Sci-Fi</item>
+        <item>Thriller</item>
+    </string-array>
+
+    <string name="returnBook">Return Book</string>
+    <string name="borrowBook">Borrow Book</string>
+    <string name="viewBorrowedBooks">View Borrowed Books</string>
+    <string name="title_activity_test">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

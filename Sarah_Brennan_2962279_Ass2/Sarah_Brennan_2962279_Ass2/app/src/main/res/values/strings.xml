@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sarah_Brennan_2962279_Ass2</string>
+
+    <string name="app_title">Minesweeper</string>
+    <string name="flag">Uncover Boxes</string>
+    <string name="reset">Reset</string>
+    <string name="numMinesMarked">Mines flagged: 0</string>
+    <string name="numMinesLeft">Total Mines: 20</string>
+    <string name="timeTaken">Time Taken: </string>
+</resources>

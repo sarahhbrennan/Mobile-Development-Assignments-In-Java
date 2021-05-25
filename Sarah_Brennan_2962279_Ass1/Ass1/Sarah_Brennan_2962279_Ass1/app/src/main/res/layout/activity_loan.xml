@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loanLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9c46a"
+    tools:context=".LoanActivity">
+
+    <TextView
+        android:id="@+id/borrowBooksTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginRight="154dp"
+        android:text="Choose A Book To Borrow From List Below"
+        android:textColor="#264653"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/loanBackButton"
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="16dp"
+        android:background="#e76f51"
+        android:text="@string/back"
+        android:textSize="10sp"
+        app:backgroundTint="#e76f51"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/returnBookButton"
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="4dp"
+        android:background="#e76f51"
+        android:text="@string/returnBook"
+        android:textSize="10sp"
+        app:backgroundTint="#e76f51"
+        app:layout_constraintBottom_toTopOf="@+id/loanBackButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/borrowBookButton" />
+
+    <Button
+        android:id="@+id/borrowBookButton"
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="4dp"
+        android:background="#e76f51"
+        android:text="@string/borrowBook"
+        android:textSize="10sp"
+        app:backgroundTint="#e76f51"
+        app:layout_constraintBottom_toTopOf="@+id/loanBackButton"
+        app:layout_constraintEnd_toStartOf="@+id/returnBookButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/loanRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="34dp"
+        app:layout_constraintBottom_toTopOf="@+id/returnBookButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/borrowBooksTV">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="RadioButton"
+            android:textColor="#2a9d8f"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="RadioButton"
+            android:textColor="#2a9d8f"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="RadioButton"
+            android:textColor="#2a9d8f"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="RadioButton"
+            android:textColor="#2a9d8f"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="RadioButton"
+            android:textColor="#2a9d8f"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="RadioButton"
+            android:textColor="#2a9d8f"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="RadioButton"
+            android:textColor="#2a9d8f"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="RadioButton"
+            android:textColor="#2a9d8f"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="RadioButton"
+            android:textColor="#2a9d8f"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="RadioButton"
+            android:textColor="#2a9d8f"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="RadioButton"
+            android:textColor="#2a9d8f"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="RadioButton"
+            android:textColor="#2a9d8f"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/loanBookListView"
+        android:layout_width="406dp"
+        android:layout_height="187dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/booksBorrowedTV" />
+
+    <TextView
+        android:id="@+id/booksBorrowedTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginRight="154dp"
+        android:text="Books Borrowed"
+        android:textColor="#264653"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

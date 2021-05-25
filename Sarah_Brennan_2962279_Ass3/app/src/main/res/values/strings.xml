@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Cork\'s Treasure Hunt</string>
+    <string name="map_key" translatable="false">AIzaSyBgxtErTtgFdThrLAPl40Oe_OsBkRkFInI</string>
+    <string name="current_long">Current Longitude:</string>
+    <string name="current_lat">Current Latitude:</string>
+    <string name="how_to_use">How To Play:\n\n
+        1. Turn on tracker with switch below\n
+        2. Click on Treasure Hunt\n
+        3. Choose which treasure you want to find\n
+        4. The first clue will pop up and how far away you are from the treasure\n
+        5. You can choose up to 9 more clues, however, the more clues you choose the lower your score\n
+        Enjoy!!!
+    </string>
+    <string name="treasure_activity_btn">Start New Treasure Hunt</string>
+    <string name="time_taken">Time Taken: </string>
+    <string-array name="hunt_spinner">
+        <item>Choose Treasure Hunt</item>
+        <item>Treasure Hunt 1</item>
+        <item>Treasure Hunt 2</item>
+        <item>Treasure Hunt 3</item>
+    </string-array>
+    <string name="new_clue">New Clue</string>
+    <string name="distance_from_treasure">Distance from Treasure:\t </string>
+    <string name="set_treasure_hunt_btn">Pick</string>
+    <string name="check_location">Check distance from Treasure</string>
+    <string name="score">Score: </string>
+    <string name="clues">Clues:</string>
+</resources>
